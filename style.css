@@ -21,3 +21,10 @@ body {
   padding: 10px;
   display: inline-block;
 }
+#button3 {
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+}
