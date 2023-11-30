@@ -1,39 +1,45 @@
 body {
     background-repeat: no-repeat;
     background-size: cover;
-    background: linear-gradient(90deg, rgba(29, 17, 234, 1) 0%, rgba(199, 42, 111, 1) 100%);
+    background: url(photos/background.jpg);
+    color: white;
 }
 #button {
   background-color: transparent;
-  border: 2px solid black;
+  border: 2px solid white;
+  color: white;
   border-radius: 10px;
   padding: 10px;
   display: inline-block;
 }
 #button2 {
   background-color: transparent;
-  border: 2px solid black;
+  border: 2px solid white;
+  color: white;
   border-radius: 10px;
   padding: 10px;
   display: inline-block;
 }
 #button3 {
   background-color: transparent;
-  border: 2px solid black;
+  border: 2px solid white;
+  color: white;
   border-radius: 10px;
   padding: 10px;
   display: inline-block;
 }
 #button4 {
   background-color: transparent;
-  border: 2px solid black;
+  border: 2px solid white;
+  color: white;
   border-radius: 10px;
   padding: 10px;
   display: inline-block;
 }
 #button5 {
   background-color: transparent;
-  border: 2px solid black;
+  border: 2px solid white;
+  color: white;
   border-radius: 10px;
   padding: 10px;
   display: inline-block;
