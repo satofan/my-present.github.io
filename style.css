@@ -17,3 +17,64 @@ body {
   justify-content: center; /* Выравнивание по горизонтали */
   align-items: center; /* Выравнивание по вертикали */
 }
+body {
+  font-family: Arial, sans-serif;
+}
+.menu {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+}
+a {
+  display: block;
+  padding: 5px;
+  background-color: #ddd;
+  text-decoration: none;
+  color: #333;
+}
+a:hover {
+  background-color: #eee;
+}
+
+.recipe {
+  display: none;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  background-color: #f9f9f9;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ .recipe {
+  display: block;
+}
+
+label {
+  padding: 5px;
+  cursor: pointer;
+}
+
+label:hover {
+  background-color: #eee;
+}
+.word-list { display: flex; flex-wrap: wrap; }
+
+.word-group { flex-basis: 33.33%; margin-bottom: 1em; }
+
+.word-group h3 { margin: 0; }
+
+.word-group ul { list-style: none; padding: 0; }
+
+.word-group li { margin-bottom: 0.25em; }
